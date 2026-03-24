@@ -35,21 +35,26 @@ body{
   text-align:center;
 }
 
+/* 🔥 LOGO OPTIMIZADO PARA FORMATO HORIZONTAL */
 .logo{
-  width:150px;
-  margin: 0 auto 25px;
+  width:100%;
+  max-width:320px;
+  margin: 0 auto 30px;
   display:block;
+  padding: 10px 0;
 }
 
 h1{
-  font-size:36px;
+  font-size:34px;
   margin-bottom:8px;
   font-weight:800;
+  letter-spacing:-0.3px;
 }
 
 p{
   margin-bottom:30px;
   color: rgba(46,46,46,0.7);
+  font-size:15px;
 }
 
 .btn{
@@ -60,7 +65,7 @@ p{
   text-decoration:none;
   padding:18px;
   border-radius:14px;
-  font-size:20px;
+  font-size:19px;
   margin:14px 0;
   box-shadow:0 10px 20px rgba(0,0,0,0.12);
   transition: all .15s ease;
@@ -72,8 +77,9 @@ p{
 }
 
 @media (max-width:420px){
-  h1{font-size:30px;}
-  .btn{font-size:18px;}
+  h1{font-size:28px;}
+  .btn{font-size:17px;}
+  .logo{max-width:260px;}
 }
 </style>
 </head>
@@ -82,7 +88,8 @@ p{
 
 <div class="container">
 
-<img src="logo.png" alt="Recoveco Diseño 88" class="logo">
+<!-- 🔁 CAMBIA AQUÍ EL NOMBRE DE TU ARCHIVO -->
+<img src="logo-recovevo.png" alt="Recoveco Diseño 88" class="logo">
 
 <h1>Recoveco Diseño 88</h1>
 <p>Diseño, estilo y detalles que marcan la diferencia.</p>
